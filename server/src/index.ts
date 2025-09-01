@@ -8,10 +8,11 @@ import noteRoutes from './routes/note.routes';
 dotenv.config();
 
 const app = express();
+// Forcing a redeployment with updated CORS settings
 
 const allowedOrigins = [
   'http://localhost:3000', // Your local frontend for testing
-  'https://notes-app-two-bice.vercel.app' // Your Vercel URL
+  'https://notes-app-odea.vercel.app' // Your Vercel URL
 ];
 
 // Add the cors middleware with your specific options
